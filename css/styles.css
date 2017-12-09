@@ -1,14 +1,30 @@
 .jumbotron {
+  background-color: #84C5DB;
+  text-align: center;
 }
 
 body {
-
+background-color: #D9C7D8
 }
 
 #left-column {
+  background-color: #A6AFB3;
+  height: 100vw;
+  padding-left: 3%;
 
 }
 
 .sidebar-titles {
-  color: 
+  color:
+}
+
+#main-column {
+  padding-left: 3%;
+}
+#number {
+  display: block;
+  width: 29%;
+}
+form input[type='number']{
+
 }
