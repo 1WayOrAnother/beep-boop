@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Title</title>
-  </head>
-  <body>
-    <div class="jumbotron">
-      
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Title</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1>Beep Boop</h1>
+  </div>
+  <div class="container">
+    <!-- left hand column -->
+    <div class="row">
+      <div id="left-column" class="col-md-3">
+        <h2>About Beep Boop</h2>
+        <h4 class="sidebar-titles">Created By:</h4>
+        <p class="sidebar-names">Paul Kotok</p>
+        <h4 class="sidebar-titles">GitHub /URL:</h4>
+        <p><a href="https://github.com/1wayoranother">1wayoranother</a></p>
+        <p class="sidebar-names">Javascript</p>
+      </div>
+      <!-- main column -->
+      <div id="main-column" class="col-md-9">
+        <h2>Game On!</h2>
+        <h4>Rules:</h4>
+        <p>Beep Boop will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+          <li>Numbers that contain a 1 are replaced with "Boop!</li>
+          <li>Numbers that contain a 0 are replaced with "Beep!"</li>
+          <li>Program translates numbers divisible by 3 into "I'm sorry, Fellow. I'm afraid I can't do that."</li>
+        </ol>
+        <form id="generator">
+          <div class="form-group">
+            <label for="number">Enter your number here:</label>
+            <input id="number" class="form-control number" type="number">
           </div>
+          <button type="submit" class="btn btn-danger">Beep Boop!</button>
+          <!-- button for reverse input -->
+          <button type="button" id="reverse" class="btn btn-danger">Reverse</button>
+        </form>
+        <!-- User input -->
+        <div id="list">
         </div>
       </div>
-<!-- end of container -->
-    <!-- </div> -->
-  </body>
+    </div>
+    <!-- end of container -->
+  </div>
+</body>
+
 </html>
