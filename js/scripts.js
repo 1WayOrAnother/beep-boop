@@ -11,12 +11,12 @@ var numberArr =[];
     }
     if(flag==false){
 
-      if (i % 15 === 0) {
+      if (i % 1 === 0) {
        numberArr.push("BeepBoop");
       } else if (i % 3 === 0) {
-       numberArr.push("ping");
-      } else if (i % 5 === 0) {
-       numberArr.push("pong");
+       numberArr.push("I'm sorry, Fellow I'm afraid I can't do that");
+     } else if (i %  === 0) {
+       numberArr.push("beep");
       } else
        numberArr.push(i)
     }

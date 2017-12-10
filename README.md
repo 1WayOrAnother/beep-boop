@@ -32,13 +32,16 @@ A web-app that takes user index input and replaces specific values with the word
 3. _Hack it!_
 
 ## Known Bugs
-* Code does not exist yet
+* Code does not properly work yet.
 
 ## Technologies Used
 * JS
   * jQuery 3.x.x
 * HTML
   * Bootstrap 3.x.x
+* CSS
+  * GitHub
+
 
 ## Support and contact details
 
