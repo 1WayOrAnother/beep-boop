@@ -25,10 +25,12 @@ background-color: #BFAAB6
 #main-column {
   padding-left: 3%;
 }
+
 #number {
   display: block;
   width: 29%;
 }
+
 form input[type='number']{
 
 }
