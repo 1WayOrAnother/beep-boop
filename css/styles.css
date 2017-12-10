@@ -18,6 +18,10 @@ background-color: #BFAAB6
   color: #F5EDF5
 }
 
+.sidebar-names {
+  color: white;
+}
+
 #main-column {
   padding-left: 3%;
 }
