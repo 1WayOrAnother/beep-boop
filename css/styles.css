@@ -2,18 +2,15 @@
   background-color: #84C5DB;
   text-align: center;
 }
-img{
-  class="rounded"
-}
+
 body {
-background-color: #BFAAB6
+  background-color: #BFAAB6
 }
 
 #left-column {
   background-color: #A6AFB3;
   height: 100vw;
   padding-left: 3%;
-
 }
 
 .sidebar-titles {
@@ -33,6 +30,4 @@ background-color: #BFAAB6
   width: 29%;
 }
 
-form input[type='number']{
-
-}
+form input[type='number'] {}
