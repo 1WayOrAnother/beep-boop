@@ -1,6 +1,6 @@
 # Beep-Boop
 
-#### A Beep Boop game that takes users to input (number only) and replaces with words "Beep and Boop" word and determines its raw Scrabble score, assuming no special tiles. 12/8/17
+#### A Beep Boop game that takes users to input (number only) and replaces with words "Beep and Boop" words and entertains the player. 12/8/17
 
 #### By **Paul Kotok**
 
@@ -32,7 +32,7 @@ A web-app that takes user index input and replaces specific values with the word
 3. _Hack it!_
 
 ## Known Bugs
-* Code does not properly work yet.
+* Code some-what working.
 
 ## Technologies Used
 * JS
@@ -47,7 +47,7 @@ A web-app that takes user index input and replaces specific values with the word
 
 ## Known Bugs
 
-_....._
+_Reverse not function properly_
 
 ## Support and contact details
 
