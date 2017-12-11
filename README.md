@@ -18,9 +18,7 @@ A web-app that takes user index input and replaces specific values with the word
 | **Numbers that contain a 1 are replaced with "Boop!"**| Input: "1" | Output: "Boop" |
 | **Numbers that contain a 0 are replaced with "Beep!"**| Input: "10" | Output: "Beep" |
 | **Program translates numbers divisible by 3 into "I'm sorry, Fellow. I'm afraid I can't do that."**| Input: "9" | Output: "I'm sorry, Fellow. I'm afraid I can't do that." |
-| ****| Input: | Output: |
-| ****| Input:  | Output: |
-| ****| Input:  | Output: |
+
 
 ## Setup/Installation Requirements
 
