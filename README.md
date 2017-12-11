@@ -23,6 +23,7 @@ A web-app that takes user index input and replaces specific values with the word
 ## Setup/Installation Requirements
 
 1. _Access my [Repository](https://github.com/1WayOrAnother/beep-boop) or my [portfolio domain]()._
+
 2. _You can view the directory files online or clone them from my repository._
 
 2. _Make sure your have a text editor and your own GitHub account setup to work with your terminal._
