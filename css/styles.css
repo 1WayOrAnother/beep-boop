@@ -2,7 +2,9 @@
   background-color: #84C5DB;
   text-align: center;
 }
-
+img{
+  class="rounded"
+}
 body {
 background-color: #BFAAB6
 }

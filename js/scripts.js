@@ -1,26 +1,50 @@
-//Back end /Buisness logic
-function beepBoot(number) {
-  $("#list").empty(number); //empties the div each time
 
-var numberArr =[];
-  for (var i = 1; i <= number; i += 1) {
-    var flag= false;
-    for (j=0; j< number.toString().length; ++j){
-      if (number.toString().charAt(j)== '0')
-        flag = true;
-    }
-    if(flag==false){
-
-      if (i % 1 === 0) {
-       numberArr.push("BeepBoop");
-      } else if (i % 3 === 0) {
-       numberArr.push("I'm sorry, Fellow I'm afraid I can't do that");
-     } else if (i %  === 0) {
-       numberArr.push("beep");
-      } else
-       numberArr.push(i)
+function beepBoop(number) {
+  $("#list").empty(number);
+  var numberArr =[];
+  for (var i = number; i >= 0; i -= 1) {
+      if (i  === 0) {
+      numberArr.push("beep");
+      //console.log(i + "beep")
+    } else if (i === 1) {
+      numberArr.push("boop");
+      //console.log(i + "boop")
+    } else if (i % 3 === 0) {
+      //console.log(i + "I'm sorry Fellow can't do it.")
+      numberArr.push("I'm sorry Fellow can't do it.");
+    } else {
+      //console.log(i)
+      numberArr.push(i)
     }
   }
-
   return numberArr;
 }
+function buildList(numberArr) {
+  var strings = "";
+  for (var ii = 0; ii < numberArr.length; ii++) {
+    strings += "<li>"+numberArr[ii]+"</li>";
+  }
+  return strings;
+}
+
+function resetFields() {
+    $("input#number").val("");
+}
+
+
+$(document).ready(function() {
+  $("form#generator").submit(function(event) {
+    event.preventDefault();
+    var input = $("#number").val();
+    $("#list").append(buildList(beepBoop(input)));
+    $("#result").show();
+    resetFields();
+  });
+  $("#reverse").click(function(event) {
+    event.preventDefault();
+    var input = $("#number").val();
+    $("#list").append(buildList(beepBoop(input).reverse()));
+    $("#result").show();
+    resetFields();
+  });
+});
