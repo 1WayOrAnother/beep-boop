@@ -11,13 +11,12 @@ A web-app that takes user index input and replaces specific values with the word
 
 ### Specs
 | Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
+| **Program returns number**      | Input: "49" | Output: "49" |
+| **The program counts up to the number**   | Input: 2 | Output 2,1,0 |
+| **Numbers that contain a 1 are replaced with "Boop!"**     | Input: "1" | Output: "Boop" |
+| **Numbers that contain a 1 are replaced with "Boop!"**  | Input: "10"| Output: "Beep" |
+| **Program translates numbers divisible by 3 into "I'm sorry, Fellow. I'm afraid I can't do that."**     | Input: "9" | Output: "I'm sorry, Fellow. I'm afraid I can't do that." |
 
-| **Program returns number** |  Input: "49" | Output: "49" |
-| **The program counts up to the number| Input: 2| Output 2,1,0|
-| **Numbers that contain a 1 are replaced with "Boop!"**| Input: "1" | Output: "Boop" |
-| **Numbers that contain a 0 are replaced with "Beep!"**| Input: "10" | Output: "Beep" |
-| **Program translates numbers divisible by 3 into "I'm sorry, Fellow. I'm afraid I can't do that."**| Input: "9" | Output: "I'm sorry, Fellow. I'm afraid I can't do that." |
 
 
 ## Setup/Installation Requirements
