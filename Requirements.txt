@@ -1,0 +1,19 @@
+Your project will be reviewed on the following objectives:
+JavaScript business logic and user interface logic are separate.is standard
+Application implements a for loop and works as expected.
+Project demonstrates understanding of this week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
+
+That said, when I look a little closer, i see quite a few issues that indicate that there is a lack of comprehension regarding how BDD works, what backend/frontend separation means and needs to look like, and also some confusion about how to approach this project logically.
+
+During the long standup on BDD I did the other day, I repeatedly mentioned that we don't mention the User, the User inface, user input, or any other aspects of either code (arrays, loops, etc) or user input in our specs. Why? because the UI can change but the behaviours that our application needs to show do not ever change. So I was surprised to see you reference localhost, users, inputs, etc. What if I have no UI? What if I run it not on localhost? Now the specs are wrong. Also, those specs do not describe the main logic of the backend.
+
+I also addressed multiple times how we want to separate backend and frontend logic. How do we know when something is frontend logic? Well, if it uses jQuery, it's frontend. There are multiple references to jQuery $("#list").empty(number); scattered throughout your backend logic. This means that this point got completely missed.
+
+The main challenges for this assignment were BDD specs, back/frontend separation, and logic.
+
+The application works correctly some of the time, but not always. For an input of 15 I receive the following output:
+clearly the numbers 10, 11, 13, 14 are not right, especially as 13 is a special case.
+
+I know that you realize that the code has some bugs, but I am wondering whether you were aware of the fact that this application has no back/frontend separation at all.
+
+Let's discuss this when I am back in class, hopefully I will be feeling better enough to come in tomorrow.

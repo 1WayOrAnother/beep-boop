@@ -12,9 +12,9 @@ A web-app that takes user index input and replaces specific values with the word
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Homepage** | User accesses localhost:5004 | Home page with user input form |
-| **Program Gathers User Input** | User input: "49" | Output: "49" |
-| **Program differentiates between numbers and letters**| User Input: "pants pants" | Output: "not a number" |
+
+| **Program returns number** |  Input: "49" | Output: "49" |
+| **The program counts up to the number| Input: 2| Output 2,1,0|
 | **Numbers that contain a 1 are replaced with "Boop!"**| Input: "1" | Output: "Boop" |
 | **Numbers that contain a 0 are replaced with "Beep!"**| Input: "10" | Output: "Beep" |
 | **Program translates numbers divisible by 3 into "I'm sorry, Fellow. I'm afraid I can't do that."**| Input: "9" | Output: "I'm sorry, Fellow. I'm afraid I can't do that." |
@@ -22,7 +22,7 @@ A web-app that takes user index input and replaces specific values with the word
 
 ## Setup/Installation Requirements
 
-1. _Access my [Repository](https://github.com/1WayOrAnother/beep-boop) or my [portfolio domain]("did not create it, because of fear of erasing existing project.")_
+1. _Access my [Repository](https://github.com/1WayOrAnother/beep-boop)_
 
 2. _You can view the directory files online or clone them from my repository._
 
