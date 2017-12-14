@@ -1,7 +1,5 @@
 // backend
 function beepBoop(number) {
-  // $("#list").empty(number); how do I moove it so it's retain functionality
-
   var numberArr =[];
   for (var i = number; i >= 0; i -= 1) {
       if (i  === 0) {
@@ -19,7 +17,8 @@ function beepBoop(number) {
     }
   }
   return numberArr;
-}
+};//End of 'beepBoop' function.
+
 function buildList(numberArr) {
   var strings = "";
   for (var ii = 0; ii < numberArr.length; ii++) {
@@ -28,8 +27,7 @@ function buildList(numberArr) {
   return strings;
 }
 
-   //  front end logic
-
+//  front end logic
 function resetFields() {
     $("input#number").val("");
 }
